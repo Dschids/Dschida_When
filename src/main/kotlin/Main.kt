@@ -21,6 +21,8 @@ while (cont != "n") {
         8 -> inGerman = "Acht"
         9 -> inGerman = "Nuen"
         10 -> inGerman = "Zehn"
+        !in 1..10 -> inGerman = "Out of Range"
+        else -> inGerman = "Unknown"
     }
     println("$usernum in German is $inGerman") // print number entered and german version
     print("Would you like to enter another number? y/n: ")
