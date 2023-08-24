@@ -5,6 +5,7 @@ var usernum = 1
 var inGerman = "x"
 var cont = "y"
     // run while loop until user enters n to stop
+    // changes
 while (cont != "n") {
     print("Enter a number for the German translation: ")
     usernum = readln()!!.toInt()
